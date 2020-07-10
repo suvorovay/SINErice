@@ -26,9 +26,10 @@ All coordinates presented in tsv format (Chromosome, Begin, End, SineFamilyId, S
 
 ### Executable files 
 
-Executable files for the HDRSM method can be found here *exe_files* folder. 
+Executable files for the HDRSM method can be found in the *exe_files* folder. 
 
-The folder contains executable files for Windows for the highly divergent repeat search method (HDRSM).
+The folder contains executable files for Windows for the highly divergent repeat search method (HDRSM). 
+HDRSM includes the following steps:
 
 1. Paste your SINE consensus sequence in the fasta format into the "seq.fasta" file.
 2. Paste your chromosome of interest in the fasta format into "genome_file.fa".
