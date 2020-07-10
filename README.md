@@ -16,8 +16,8 @@ All coordinates presented in tsv format (Chromosome, Begin, End, SineFamilyId, S
 ### Simulated dataset analysis 
  Datasets include fasta sequences of simulated chromosomes (\*.fa) and coordinates of inserted SINEs in these sequences (\*.tsv) 
  
-- Sequence *FullLengthSet* <a href="/sinesuppl/files/TrunkatedSet.tar.gz">(archive.tar.gz)<a></p>
-- Sequence *TruncatedSet* <a href="/sinesuppl/files/FullLengthSet.tar.gz">(archive.tar.gz)<a></p>
+- **/FullLengthSet/** folder contains fasta sequences  and coordinates of inserted SINEs in tsv format for the FullLength-test
+- **/TrunkatedSet/** folder contains fasta sequences  and coordinates of inserted SINEs in tsv format for the Trunkated-test
 
 #### Results obtained on the simulated datasets
 
