@@ -1,0 +1,19 @@
+The folder contains executable files for Windows for the highly divergent repeat search method (HDRSM).
+
+1. Paste your SINE consensus sequence in the fasta format into the "seq.fasta" file.
+2. Paste your chromosome of interest in the fasta format into "genome_file.fa".
+3. Run xi4.exe by clicking on it to create initial PWM. The additional "data.txt" file will be created, please, do not remove it.
+4. Run preob_mat.exe to transform PWM.
+5. Run scan_cl4.exe to scan the chromosome ("genome_file.fa") with the obtained PWM. It requires some time. 
+	The output file "100.rce" contains the result of scanning for each position. 
+	The method includes Monte-Carlo simulations and therefore may return slightly different Z-values on different runs. 
+6. Run local_max.exe to collect statistically significant (Z > 10) local max values from the output file 
+and transform the results into tsv format (the resulting file is "out.tsv").
+
+
+
+The remove_redundancy.exe can be used to remove redundancy from a set of tsv data files found using different SINE consensuses (collected into one file). 
+For example in our work the file "total_sine_sorted.bed" contains the results of all 39 SINE consensus search using the remove_redundancy.exe
+one will get non-redundant file "non-overlapped.tsv". 
+
+With any questions please contact Yulia Suvorova (suvorovay@gmail.com)
